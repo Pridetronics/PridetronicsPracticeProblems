@@ -1,0 +1,7 @@
+package FOLDER_NAME;
+
+class FILE_NAME {
+    public static void main(String[] args) {
+        
+    }
+}
