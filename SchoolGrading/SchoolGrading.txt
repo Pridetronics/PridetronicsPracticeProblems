@@ -1,0 +1,10 @@
+Euan needs a program that will tell him what letter grade he got on a test.
+Use the info below to create a program that takes a number grade as input and prints the correct letter grade.
+
+100-90 = A
+90-80 = B
+80-70 = C
+70-60 = D
+60-0 = F
+
+If the input is greater than 100 or less than 0, print out the message "Not Possible" or something similar.
