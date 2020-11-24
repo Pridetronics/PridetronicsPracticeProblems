@@ -1,0 +1,17 @@
+Implement this program one piece at a time. This is always strongly recommended when writing software, and this exercise attempts to strengthen that skill.
+See how far you can get!
+
+Part 1:
+Implement a program that asks the user for numbers until the user inputs the number -1. When the user writes -1, the program writes "Thanks! Bye!" and ends.
+
+Part 2:
+Extend the program so that it prints the sum of the numbers (not including the -1 at the end) that the user has inputted.
+
+Part 3:
+Extend the program so that it also prints the number of numbers (not including the -1) the user has written.
+
+Part 4:
+Extend the program so that it also prints the mean (average) of all of the inputted numbers (not including the -1).
+
+Part 5:
+Extend the program so that it prints the number of even and odd numbers (excluding the -1).
