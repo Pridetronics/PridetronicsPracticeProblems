@@ -14,5 +14,7 @@ public class FactorialFinder {
        } 
        // Prints out the factorial
        System.out.println("The factorial of " + number + " is " + factorial);
+       // Close Scanner
+       scanner.close();
     }
 }
