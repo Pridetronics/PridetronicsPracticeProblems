@@ -1,6 +1,7 @@
 class StarSign {
     public static void main(String[] args) {
         // Write code here to test your methods!
+        printStars(5);
     }
     public static void printStars(int number) {
         // Prints the given number of stars and then goes to a new line.
@@ -11,7 +12,10 @@ class StarSign {
             Prints:
             ***** 
         */
-
+        for (int i = 0; i < number; i++) {
+            System.out.print("*"); 
+        }
+        System.out.println();
     }
     public static void printSquare(int size) {
         // Prints a square with the help of the printStars method. 
