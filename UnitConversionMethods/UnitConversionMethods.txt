@@ -1,0 +1,8 @@
+Write methods to convert the following units:
+
+Fahrenheit -> Celsius
+Fahrenheit -> Kelvin
+Megabyte -> Gigabyte
+Meter -> Centimeters
+Degree -> Radian
+
