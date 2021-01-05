@@ -1,6 +1,12 @@
+import java.util.Scanner;
+
 class UnitConversionMethods {
     public static void main(String[] args) {
-        System.out.println(fahrenheitToCelsius(70.2));
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter temp: ");
+        double tempF = scanner.nextDouble();
+        double tempC = fahrenheitToCelsius(tempF);
+        System.out.println(tempC);
     }
 
     public static double fahrenheitToCelsius(double temperatureInFahrenheit) {

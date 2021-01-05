@@ -1,0 +1,30 @@
+Write a class that represents a credit card. The class should contain four declarations:
+- public CreditCard(double balance)
+    - This is the constructor for the CreditCard class. This takes in a number and sets it as the starting balance for the card.
+- public double getBalance()
+    - Returns the money value on the card.
+- public void addMoney(double amount)
+    - Adds the given amount of money into the card.
+- public void removeMoney(double amount)
+    - Removes the given amount of money from the card.
+
+
+
+
+This main method should run without issues using your class:
+
+public static void main(String[] args) {
+    // Creates a new card with 10 dollars to start
+    CreditCard card = new CreditCard(10);
+
+    // Prints the starting value of the card
+    System.out.println("Money in Card:" + card.getBalance());
+
+    // Removes 5 dollars from the card
+    card.removeMoney(5);
+    System.out.println("Money in Card after Removal:" + card.getBalance());
+
+    // Adds 20 dollars to the card
+    card.addMoney(20);
+    System.our.println("Money in Card after Adding:" + card.getBalance());
+}
