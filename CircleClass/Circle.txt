@@ -1,0 +1,5 @@
+Write a class that defines an object for a circle. This object should have a double parameter representing its radius.
+
+Write methods to calculate circumference and calculate area. Use the built-in math class in java for an accurate value of pi.
+
+Use the main method to ask the user for input and calculate both area and circumference.
