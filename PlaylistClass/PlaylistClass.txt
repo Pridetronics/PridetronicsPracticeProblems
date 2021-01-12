@@ -1,0 +1,5 @@
+Create a playlist class that allows you to add songs, remove songs, and print all of the songs in the playlist.
+The songs (represented as Strings) should be stored in an ArrayList of strings, and the ArrayList should be apart of the class as an instance variable.
+The addSong method should take in a string and add it to the classes' ArrayList.
+The removeSong method should take in a string and remove that song from the classes' ArrayList.
+The printSongs method should loop through the classes' ArrayList and print out each song.
